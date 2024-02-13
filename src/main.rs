@@ -1,9 +1,23 @@
+
+
+
+
+
 // welcome!
-// the println!() "function" is your friend!
-// write println!() and pass in "Hallo, xhain!" 
+// change the string below to hallo, xhain! to begin!
+// your rust journey awaits!
 fn string_to_print() -> String {
-    return String::from("TODO");
-} 
+    String::from("TODO")
+} // hallo, xhain!
+
+
+
+
+// the stuff below is your usual "boilerplate"
+// you'll almost always see a main() function
+// and you'll often see a test,
+//   either in the same file
+//   or a directory nearby named "tests"
 
 fn main() {
     let s = string_to_print();
@@ -19,7 +33,7 @@ mod tests {
 
         assert_eq!(
             string_to_print(), 
-            String::from("Hallo, xhain!")
+            String::from("hallo, xhain!")
         );
     }
 }
