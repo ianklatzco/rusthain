@@ -19,3 +19,14 @@
   rust learning exercises according to a social template a la sigpwny 15/45
     - this is probably highest leverage, socializing the learning
 	- discord almost certainly a better platform
+
+- either i can do a bunch of these as a continual sequence
+- it probably makes the most sense to do the sigpwny-style exercise wherein 
+- an interested party makes 3-5: hello, easy, medium, hard
+- which maximizes the learning of the person organizing
+- i probably have to be present to support the person learning?
+
+- cargo build should always succeed
+- cargo test should fail up until the point of your progress
+- should probably have subdirs with specific cargotomls for different dependencies
+- goal: produce exercises to gently introduce someone to whatever library interests the challenge author

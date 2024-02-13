@@ -13,9 +13,9 @@ name = "meta"
 path = "src/meta.rs"
 
 [[bin]]
-name = "main0"
-path = "src/0-main.rs"
+name = "main1"
+path = "src/a-gentle-introduction/main1-hello.rs"
 
 [[bin]]
-name = "main1"
-path = "src/1-main.rs"
+name = "main2"
+path = "src/a-gentle-introduction/main2-adding.rs"

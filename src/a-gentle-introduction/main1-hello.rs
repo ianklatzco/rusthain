@@ -4,11 +4,11 @@
 
 
 // welcome!
-// change the string below to hallo, xhain! to begin!
+// change the string below to hallo, rusthain! to begin!
 // your rust journey awaits!
-fn string_to_print() -> String {
+fn hello() -> String {
     String::from("TODO")
-} // hallo, xhain!
+} // hallo, rusthain!
 
 
 
@@ -24,20 +24,20 @@ fn string_to_print() -> String {
 // ==========================================================================
 
 fn main() {
-    let s = string_to_print();
-    println!("{}", s);
+    let s = hello();
+    dbg!(s);
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::string_to_print;
+    use crate::hello;
 
     #[test]
-    fn it_works() {
+    fn test_main1() {
 
         assert_eq!(
-            string_to_print(), 
-            String::from("hallo, xhain!")
+            hello(), 
+            String::from("hallo, rusthain!")
         );
     }
 }
