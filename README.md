@@ -1,4 +1,5 @@
 # rusthain!
+hello, xhain!
 
 ## If you've never installed Rust
 
