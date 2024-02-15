@@ -3,10 +3,10 @@
 
 fn arithmetic() -> i32 {
     // pick four numbers, any four numbers....
-    let a = 0;
-    let b = 0;
+    let a = 2;
+    let b = 4;
     let c = 0;
-    let d = 0;
+    let d = 8;
     return a + b + c + d;
 }
 
@@ -23,6 +23,8 @@ fn main() {
     dbg!(result);
 }
 
+// #[] is an attribute that applies to the thing that follows
+// #![] is anattribute that applies to the thing that is within
 #[cfg(test)]
 mod tests {
     use crate::arithmetic;

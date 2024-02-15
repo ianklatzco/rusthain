@@ -53,7 +53,10 @@ fn main() {
     // exec
     let retval: u64 = func();
 	dbg!(&retval);
+    
+    // make me pass!!
     assert_eq!(retval, 69);
+    // make me pass!!
 
     // Clean up.
     unsafe { munmap(ptr, buffer.len()); }
