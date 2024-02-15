@@ -19,3 +19,11 @@ path = "src/a-gentle-introduction/main1-hello.rs"
 [[bin]]
 name = "main2"
 path = "src/a-gentle-introduction/main2-adding.rs"
+
+[[bin]]
+name = "main3"
+path = "src/a-gentle-introduction/main3-structs.rs"
+
+[[bin]]
+name = "main4"
+path = "src/a-gentle-introduction/main4-overachievers.rs"

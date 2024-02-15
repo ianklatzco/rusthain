@@ -11,4 +11,5 @@ hello, rusthain!
 - Look in `src/a-gentle-introduction/main1-hello.rs` to get started!
 - `cargo build`
 
-## 
+## TODO 
+- Dual license
