@@ -11,6 +11,8 @@ use std::ptr::copy_nonoverlapping;
 use libc::{mmap, mprotect, munmap, PROT_READ, PROT_WRITE, PROT_EXEC, MAP_PRIVATE, MAP_ANON};
 
 fn main() {
+    println!("Feed me shellcode!! (on stdin)");
+    // TODO PR in a read from a hardcoded vec
     // Read from stdin into a Vec<u8>
     let mut buffer = Vec::new();
     std::io::stdin().read_to_end(&mut buffer).expect("Failed to read from stdin");
