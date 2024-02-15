@@ -8,7 +8,7 @@ hello, rusthain!
 
 ## If you have Rust installed
 - `git clone https://github.com/ianklatzco/rusthain.git`
-- Look in `src/main.rs` to get started!
+- Look in `src/a-gentle-introduction/main1-hello.rs` to get started!
 - `cargo build`
 
 ## 
